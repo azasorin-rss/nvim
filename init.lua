@@ -119,7 +119,6 @@ require('lazy').setup({
       'tjdevries/colorbuddy.nvim',
     },
     config = function()
-      vim.o.bg = 'light'
       require('neosolarized').setup({
         comment_italics = true,
         background_set = false,
@@ -203,8 +202,6 @@ require('lazy').setup({
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
-
-vim.o.bg = 'light'
 
 -- Set highlight on search
 vim.o.hlsearch = false
